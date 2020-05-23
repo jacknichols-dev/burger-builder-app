@@ -1,0 +1,34 @@
+/*Mobile layout*/
+.Burger {
+  width: 100%;
+  margin: auto;
+  height: 27rem;
+  overflow-x: scroll;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10rem;
+}
+
+/*Tablet layout portrait*/
+@media (min-width: 500px) and (min-height: 400px) {
+  .Burger {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+/*Tablet layout landscape*/
+@media (min-width: 500px) and (min-height: 401px) {
+  .Burger {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+/*desktop layout*/
+@media (min-width: 1000px) and (min-height: 700px) {
+  .Burger {
+    width: 700px;
+    height: 600px;
+  }
+}

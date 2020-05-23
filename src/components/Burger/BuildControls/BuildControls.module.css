@@ -1,0 +1,44 @@
+.BuildControls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(110, 56, 121);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 1rem 15rem rgba(0, 0, 0, 0.3);
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.price {
+  color: white;
+}
+
+.orderBtn {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-weight: 700;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  margin: 2rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.orderBtn:hover,
+.orderBtn:active {
+  background-color: orangered;
+  color: white;
+  transform: translateY(-0.2rem) scale(1.1);
+}
+
+.orderBtn:disabled {
+  background-color: lavender;
+  color: darkslategray;
+  box-shadow: none;
+  transform: none;
+  cursor: not-allowed;
+}
